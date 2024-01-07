@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header Style */
+.container {
+
+    width: 82.5%;
+    max-width: 1460px;
+    margin: 0px auto;
+}
+
+.banner-img {
+    position: relative;
+    align-items: center;
+    width: 16%;
+    height: 7.27%;
+    border-radius: 16px;
+    margin-top: 50px;
+
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 233px;
+    left: 250px;
+    right: 344px;
+    bottom: 177px;
+}
+
+.banner-wish {
+    text-align: center;
+    padding: 0px;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.banner-tittle {
+    color: #fff;
+    text-align: center;
+    font-size: 59.4px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+
+/* Main Style */
+.banner-offer {
+    position: absolute;
+    top: 770px;
+    left: 608px;
+    right: 609px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-holiday {
+    position: absolute;
+    top: 925px;
+    left: 602px;
+    right: 601px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.banner-categories {
+    position: absolute;
+    top: 970px;
+    left: 595px;
+    right: 595px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-image2 {
+    position: relative;
+    top: 476px;
+    left: 310px;
+    right: 398.1px;
+    width: 802.9px;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.banner-image3 {
+    position: relative;
+    top: 596px;
+    left: 10px;
+    right: 140px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-attachment: fixed;
+
+}
+
+.banner-group {
+    position: absolute;
+}
+
+.g {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.g .group-text h2 {
+    color: #FFF;
+    position: absolute;
+    top: 126px;
+    left: 126px;
+    right: 552px;
+    bottom: 298px;
+    width: 642px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+}
+
+.group-text2 {
+    position: absolute;
+    top: 326px;
+    left: 126px;
+    right: 497px;
+    bottom: 214px;
+    color: rgba(255, 255, 255, 0.80);
+    width: 697px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gt {
+    position: absolute;
+    color: #FFF;
+    top: 434px;
+    left: 158px;
+    right: 1059px;
+    bottom: 142px;
+    width: 1600px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.group-image {
+    position: absolute;
+    top: 68.11px;
+    right: 138px;
+    left: 862.17px;
+    bottom: 67.23px;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
