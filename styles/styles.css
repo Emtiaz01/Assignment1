@@ -28,8 +28,8 @@
 
 .banner-text {
     position: absolute;
-    font-family: Merriweather;
-    top: 233px;
+    font-family:
+        top: 233px;
     left: 250px;
     right: 344px;
     bottom: 177px;
@@ -120,7 +120,6 @@
     height: 600px;
     flex-shrink: 0;
     background-attachment: fixed;
-
 }
 
 .banner-group {
@@ -198,7 +197,7 @@
     top: 716px;
     right: 526px;
     left: 1px;
-    bottom:110px;
+    bottom: 110px;
     padding: 100px 370px 214px 365px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -215,7 +214,7 @@
     top: 316px;
     right: 577px;
     bottom: 110px;
-    left: 576px;    
+    left: 576px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -231,8 +230,160 @@
     margin-bottom: 4437px;
     width: 180px;
     height: 56px;
+    border: none;
+    border-radius: 8px;
 }
 
 .color {
     color: #F00;
+}
+
+.groups {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-offer {
+    position: absolute;
+    top: 1400px;
+    bottom: 4184px;
+    left: 15px;
+    right: 1253px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 207px;
+}
+
+.Comming-Soon {
+    position: absolute;
+    top: 1450px;
+    left: 14px;
+    right: 1253px;
+    bottom: 4184px;
+    width: 368px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-text {
+    position: absolute;
+    top: 1550px;
+    left: 14px;
+    right: 1253px;
+    bottom: 4184px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 393px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.year {
+    position: absolute;
+    top: 1408px;
+    left: 1050px;
+    right: 100px;
+    bottom: 4184px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.year-text {
+    position: absolute;
+    top: 1470px;
+    left: 1050px;
+    right: 100px;
+    bottom: 4181px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 276px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-image {
+    position: absolute;
+    top: 1660px;
+    left: 1050px;
+    right: 100px;
+    bottom: 4181px;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.best-offer-image {
+    position: relative;
+    top: 1330px;
+    left: 520px;
+    right: 291px;
+    bottom: 4184px;
+    padding: 100px;
+    width: 200.844px;
+    height: 200.844px;
+    flex-shrink: 0;
+    border-radius: 864.844px;
+    border: #F00;
+    border-style: solid;
+    border-width: 10px;
+    background: #FFF;
+
+}
+
+.image-border {
+    position: relative;
+    top: 1260px;
+    left: 30px;
+    right: 300px;
+    bottom: 4184px;
+    padding: 100px;
+    width: 100.844px;
+    height: 100.844px;
+    flex-shrink: 0;
+}
+
+.what-text {
+    position: absolute;
+    top: 1910px;
+    left: 600px;
+    right: 334px;
+    width: 263px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale1 {
+    position: absolute;
+    top: 1940px;
+    left: 400px;
+    right: 334px;
+    width: 712px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-message {
+    position: absolute;
+    text-align: center;
+    top: 2090px;
+    left: 350px;
+    right: 334px;
+    width: 800px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
 }
