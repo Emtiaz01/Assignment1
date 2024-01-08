@@ -9,7 +9,6 @@
 
 /* Header Style */
 .container {
-
     width: 100%;
     max-width: 1460px;
     margin: 0px auto;
@@ -37,7 +36,7 @@
 
 .banner-wish {
     text-align: center;
-
+    font-family: Merriweather;
     padding: 0px;
     color: #fff;
     font-size: 32px;
@@ -51,6 +50,7 @@
 .banner-tittle {
     color: #fff;
     text-align: center;
+    font-family: Merriweather;
     font-size: 59.4px;
     font-style: normal;
     font-weight: 900;
@@ -263,7 +263,7 @@
 
 .new-offer {
     position: absolute;
-    top: 1400px;
+    top: 1420px;
     bottom: 4184px;
     left: 15px;
     right: 1253px;
@@ -277,7 +277,7 @@
 
 .Comming-Soon {
     position: absolute;
-    top: 1450px;
+    top: 1470px;
     left: 14px;
     right: 1253px;
     bottom: 4184px;
@@ -305,7 +305,7 @@
 .year {
     position: absolute;
     top: 1408px;
-    left: 1050px;
+    left: 1000px;
     right: 100px;
     bottom: 4184px;
     color: #F00;
@@ -331,7 +331,7 @@
 .offer-image {
     position: absolute;
     top: 1660px;
-    left: 1050px;
+    left: 1000px;
     right: 100px;
     bottom: 4181px;
     width: 140px;
@@ -342,7 +342,7 @@
 .best-offer-image {
     position: relative;
     top: 1330px;
-    left: 520px;
+    left: 516px;
     right: 291px;
     bottom: 4184px;
     padding: 100px;
@@ -354,7 +354,6 @@
     border-style: solid;
     border-width: 10px;
     background: #FFF;
-
 }
 
 .image-border {
@@ -384,7 +383,7 @@
 .sale1 {
     position: absolute;
     top: 1940px;
-    left: 400px;
+    left: 430px;
     right: 334px;
     width: 712px;
     font-family: Merriweather;
@@ -522,3 +521,79 @@
     position: relative;
     top: 16px;
 }
+
+.last-image {
+    position: absolute;
+    left: 580px;
+    top: 4800px;
+
+}
+
+.last-heading {
+    position: absolute;
+    top: 5130px;
+    left: 300px;
+    color: #070211;
+    width: 1000px;
+    font-family: Merriweather;
+    font-size: 80px;
+}
+
+.last-text {
+    position: absolute;
+    top: 5270px;
+    left: 80px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 1300px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.email-address {
+    display: flex;
+}
+
+.search {
+    position: absolute;
+    top: 5400px;
+    left: 330px;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 0px;
+    padding-left: 30px;
+}
+
+.subscribe {
+    position: absolute;
+    top: 5400px;
+    left: 900px;
+    width: 210px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 54px;
+    padding-right: 56px;
+}
+
+/*Footer Styles*/
+
+/* .parts{
+    display: flex;
+    
+    margin-top: 500px 500px 0px 0x;
+} */
