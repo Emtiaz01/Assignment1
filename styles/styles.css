@@ -28,8 +28,8 @@
 
 .banner-text {
     position: absolute;
-    font-family:
-        top: 233px;
+    font-family: Merriweather;
+    top: 233px;
     left: 250px;
     right: 344px;
     bottom: 177px;
@@ -299,11 +299,11 @@
 .year-text {
     position: absolute;
     top: 1470px;
-    left: 1050px;
+    left: 998px;
     right: 100px;
     bottom: 4181px;
     color: rgba(7, 2, 17, 0.60);
-    width: 276px;
+    width: 376px;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -341,8 +341,8 @@
 
 .image-border {
     position: relative;
-    top: 1260px;
-    left: 30px;
+    top: 1257px;
+    left: 27px;
     right: 300px;
     bottom: 4184px;
     padding: 100px;
@@ -386,4 +386,40 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+}
+
+.fashion1 {
+    position: relative;
+    top: 2100px;
+    left: 200px;
+    right: 0px;
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.fashion3 {
+    position: absolute;
+    top: 2300px;
+    left: 750px;
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+}
+
+.fashion4 {
+    position: relative;
+    top: 2431px;
+    right: 1917px;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.fashion2 {
+    position: relative;
+    top: 2330px;
+    right: 1200px;
 }
