@@ -487,34 +487,65 @@
     right: px;
     display: flex;
     align-content: space-between;
+    
+}
+
+.rectangle1:hover {
+    transform: scale(1.3);
+    z-index: 2;
 }
 
 .rectangle1 {
     position: relative;
     left: 1px;
     bottom: 20px;
+    transition: 0.5s;
 }
-
+.rectangle4:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
 .rectangle4 {
     position: relative;
     left: 20px;
+    transition: 0.5s;
 }
-
+.rectangle5:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
 .rectangle5 {
     position: relative;
     left: 40px;
+    transition: 0.5s;
 }
-
+.rectangle7:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
 .rectangle7 {
     position: relative;
     top: 14px;
     left: 20px;
+    transition: 0.5s;
 }
-
+.rectangle8:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
 .rectangle8 {
     position: relative;
     top: 14px;
     left: 40px;
+    transition: 0.5s;
+}
+.rectangle6:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+.rectangle6{
+    position: relative;
+    transition: 0.5s;
 }
 
 .portfolio-image1 {
@@ -688,15 +719,20 @@
     height: 64px;
     flex-shrink: 0;
 }
-.Facebook{
+
+.Facebook {
     padding-right: 24px;
 }
-.Instagram{
+
+.Instagram {
     padding-right: 24px;
 }
-.Twitter{
-    padding-right: 24px;;
+
+.Twitter {
+    padding-right: 24px;
+    ;
 }
-.Linkdin{
+
+.Linkdin {
     padding-right: 24px;
 }
