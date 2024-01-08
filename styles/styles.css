@@ -22,8 +22,11 @@
     height: 7.27%;
     border-radius: 16px;
     margin-top: 50px;
+    background-repeat: no-repeat;
 
 }
+
+
 
 
 .banner-text {
@@ -58,10 +61,17 @@
 }
 
 
+
 /* Main Style */
+.container2 {
+    width: 82.5%;
+    max-width: 1460px;
+    margin: 0px auto;
+}
+
 .banner-offer {
     position: absolute;
-    top: 770px;
+    top: 800px;
     left: 608px;
     right: 609px;
     color: #F00;
@@ -75,7 +85,7 @@
 
 .banner-holiday {
     position: absolute;
-    top: 925px;
+    top: 950px;
     left: 602px;
     right: 601px;
     color: #F00;
@@ -89,9 +99,10 @@
 
 .banner-categories {
     position: absolute;
-    top: 970px;
+    top: 1010px;
     left: 595px;
     right: 595px;
+    bottom: 0px;
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -103,7 +114,7 @@
 
 .banner-image2 {
     position: relative;
-    top: 476px;
+    top: 550px;
     left: 310px;
     right: 398.1px;
     width: 802.9px;
@@ -118,13 +129,22 @@
     right: 140px;
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('../resources/Vectorrr.png');
+    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+
 }
 
 .banner-group {
-    position: absolute;
+    position: relative;
+    left: 10px;
+    width: 1320px;
+    height: 598px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-repeat: no-repeat;
 }
+
 
 .g {
 
@@ -390,7 +410,7 @@
 
 .fashion1 {
     position: relative;
-    top: 2100px;
+    top: 2200px;
     left: 200px;
     right: 0px;
     width: 429px;
@@ -401,7 +421,7 @@
 
 .fashion3 {
     position: absolute;
-    top: 2300px;
+    top: 2400px;
     left: 750px;
     width: 206.841px;
     height: 206.841px;
@@ -410,16 +430,18 @@
 
 .fashion4 {
     position: relative;
-    top: 2431px;
-    right: 1917px;
+    top: 2530px;
+    right: 1120px;
     width: 1320px;
     height: 229px;
     flex-shrink: 0;
     border-radius: 16px 0px 16px 16px;
+    background-image: url('../resources/Rectangle\ 2.png')
 }
 
 .fashion2 {
     position: relative;
     top: 2330px;
-    right: 1200px;
+    right: 2400px;
+    background-image: url('../resources/Group\ 75.png'), -webkit-linear-gradient(#939393);
 }
