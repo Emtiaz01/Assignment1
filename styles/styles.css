@@ -592,8 +592,111 @@
 
 /*Footer Styles*/
 
-/* .parts{
+.parts {
     display: flex;
-    
-    margin-top: 500px 500px 0px 0x;
-} */
+    position: absolute;
+    top: 5700px;
+    left: -350px;
+    background: #070211;
+    color: #FFF;
+    border-radius: 16px;
+}
+
+.foot-address {
+    padding-top: 120px;
+    padding-left: 140px;
+    color: #FFF;
+    width: 450px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.copyright {
+    padding-top: 460px;
+    padding-left: 140px;
+    padding-bottom: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact {
+    padding-top: 120px;
+    padding-left: 1114px;
+    padding-right: 291px;
+    width: 200px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.website {
+    padding: 8px 275px 0px 1114px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.unsubscribe {
+    padding: 460px 140px 120px 1315px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cell-phone {
+    position: relative;
+    top: -80px;
+    left: 1075px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+.web {
+    position: relative;
+    left: 1047px;
+    top: -30px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.logo-group {
+    position: relative;
+    align-content: space-around;
+    top: 400px;
+    left: -1230px;
+    display: flex;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.Facebook{
+    padding-right: 24px;
+}
+.Instagram{
+    padding-right: 24px;
+}
+.Twitter{
+    padding-right: 24px;;
+}
+.Linkdin{
+    padding-right: 24px;
+}
