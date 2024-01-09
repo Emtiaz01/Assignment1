@@ -238,7 +238,6 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
@@ -248,8 +247,8 @@
     margin-bottom: 4437px;
     width: 180px;
     height: 56px;
-    border: none;
-    border-radius: 8px;
+    border-width: 1px;
+    border-radius: 18px;
 }
 
 .color {
