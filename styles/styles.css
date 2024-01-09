@@ -633,7 +633,7 @@
 
 .foot-address {
     padding-top: 120px;
-    padding-left: 140px;
+    padding-left: 340px;
     color: #FFF;
     width: 450px;
     font-family: Inter;
@@ -645,7 +645,7 @@
 
 .copyright {
     padding-top: 460px;
-    padding-left: 140px;
+    padding-left: 340px;
     padding-bottom: 120px;
     color: #FFF;
     font-family: Inter;
@@ -657,7 +657,7 @@
 
 .contact {
     padding-top: 120px;
-    padding-left: 1114px;
+    padding-left: 750px;
     padding-right: 291px;
     width: 200px;
     color: #FFF;
@@ -669,7 +669,7 @@
 }
 
 .website {
-    padding: 8px 275px 0px 1114px;
+    padding: 8px 275px 0px 750px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -679,7 +679,7 @@
 }
 
 .unsubscribe {
-    padding: 460px 140px 120px 1315px;
+    padding: 460px 140px 120px 900px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -691,7 +691,7 @@
 .cell-phone {
     position: relative;
     top: -80px;
-    left: 1075px;
+    left: 720px;
     width: 24px;
     height: 24px;
     flex-shrink: 0;
@@ -700,7 +700,7 @@
 
 .web {
     position: relative;
-    left: 1047px;
+    left: 690px;
     top: -30px;
     width: 24px;
     height: 24px;
@@ -711,7 +711,7 @@
     position: relative;
     align-content: space-around;
     top: 400px;
-    left: -1230px;
+    left: -1100px;
     display: flex;
     width: 64px;
     height: 64px;
